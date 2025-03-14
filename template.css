@@ -10,15 +10,31 @@
 
 .template-container{
     background-color: lightgreen;
-    height:70vh;
+    height:80vh;
     width:90%;
-    padding-left:20px;
-    padding-top:10px;
-    padding-right:20px;
+    align-content: space-around;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius:20px;
+    background: radial-gradient(circle,orange,green);
+   
+
     
 }
-
-.template-content{
-    color:white;
-    padding-bottom: 10px;
-}
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust space between image and content */
+  }
+  
+  .template-image img {
+    width: 100%; /* Adjust as needed */
+    max-width: 400px; /* Limit image size */
+    height: auto;
+    margin:10px;
+  }
+  
+  .template-content {
+    max-width: 500px; /* Adjust content width */
+  }
