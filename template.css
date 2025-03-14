@@ -7,3 +7,18 @@
     text-align:right;
 
 }
+
+.template-container{
+    background-color: lightgreen;
+    height:70vh;
+    width:90%;
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+    
+}
+
+.template-content{
+    color:white;
+    padding-bottom: 10px;
+}
