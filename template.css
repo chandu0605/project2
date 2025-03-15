@@ -22,19 +22,41 @@
     
 }
 .carousel-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Adjust space between image and content */
-  }
+  position: relative;
+  text-align: center;
+}
+.carousel-item img {
+  width: 100%;
+  height: 500px; /* Adjust based on your requirement */
+  object-fit: cover;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Add contrast */
+  padding: 15px;
+  border-radius: 8px;
+}
+.carousel-caption h2, 
+.carousel-caption p {
+  color: white;
+}
+.carousel-caption button {
+  margin-top: 10px;
+}
+
+.categories-container{
+  margin-left: 20px;
+  margin-top:20px;
+  border:2px solid black;
+  float:left;
+  margin-bottom: 40px;
+  padding:15px;
+}
+
+.categories-container li{
+  font: size 15px;
+}
+
+.categories-container h2{
+  padding-bottom:10px;
   
-  .template-image img {
-    width: 100%; /* Adjust as needed */
-    max-width: 400px; /* Limit image size */
-    height: auto;
-    margin:10px;
-  }
-  
-  .template-content {
-    max-width: 500px; /* Adjust content width */
-  }
+}
